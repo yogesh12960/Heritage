@@ -1,0 +1,96 @@
+/*  Mobile Devices (max-width: 576px)*/
+@media (max-width: 576px) {
+    .rooted {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .about_page h3 {
+        text-align: center;
+    }
+
+    .Know-more-section p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/*  Tablets (max-width: 768px)= */
+@media (max-width: 768px) {
+
+    .image-stack .img-back {
+        position: absolute;
+        bottom: 0px;
+        left: 75px;
+    }
+
+    .home-heading .future-section h1 {
+        font-size: 26px;
+    }
+
+    .future-section h1 {
+        font-size: 10px;
+    }
+
+    .rooted {
+        font-size: 2rem;
+    }
+
+    .about_page h3 {
+        font-size: 1.1rem;
+    }
+
+    .search-bar {
+        flex-direction: column;
+    }
+
+    .search-bar input,
+    .search-bar button {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 5px !important;
+    }
+
+    .search-bar button {
+        margin-bottom: 0;
+    }
+
+    .footer-section h6,
+    .footer-section h5,
+    .footer-section .row>div {
+        text-align: center;
+    }
+}
+
+/* Laptops / Tablets (max-width: 991.98px)*/
+@media (max-width: 991.98px) {
+    .custom-navbar-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .custom-nav-center {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .custom-contact-btn {
+        margin-top: 10px;
+    }
+}
+
+/* Desktop Only (min-width: 992px) */
+@media (min-width: 992px) {
+    .custom-hover-dropdown:hover>.dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+/*  Dropdown Icon Animation (Always) */
+.dropdown-toggle .dropdown-icon svg {
+    transition: transform 0.3s ease;
+}
+
+.dropdown.show .dropdown-toggle .dropdown-icon svg {
+    transform: rotate(180deg);
+}
