@@ -7,7 +7,7 @@
     }
 
     .container {
-        max-width: 1100px;
+        /* max-width: 1100px; */
     }
 
 
@@ -118,15 +118,7 @@
         color: #cf8915;
     }
 
-    /* Dropdown items style */
-    /* .droup_manu .dropdown-item {
-        color: white;
-        padding: 8px 15px;
-        font-size: 12px;
-        letter-spacing: 1px;
-        text-decoration: none;
-        transition: background 0.3s ease;
-    } */
+
 
     .droup_manu .dropdown-item:hover {
         background-color: #FAA61B;
@@ -164,7 +156,7 @@
         border-radius: 25px;
         text-transform: uppercase;
         font-weight: 500;
-        padding: 13px 45px;
+        padding: 13px 20px;
         font-size: 16px;
         display: inline-block;
         align-items: center;
@@ -181,6 +173,10 @@
         background: transparent;
         color: #ffffff !important;
         box-shadow: 0 0 1px 1px #ffffff;
+    }
+
+    .custom-contact-btn {
+        padding-top: 5px;
     }
 
     .custom-contact-btn .btn-warnings:hover {
@@ -416,7 +412,7 @@
 
     /* Support-heading section */
     .Support-heading {
-        max-width: 510px;
+        max-width: 728px;
         margin: auto;
         color: #3B2313;
         text-align: center;
@@ -525,7 +521,6 @@
         font-weight: 500;
         color: #ffffff;
         padding-top: 10px;
-        padding-bottom: 25px;
     }
 
     .highlight-box .main-title {
@@ -537,11 +532,23 @@
         font-family: "Libre Baskerville", serif;
     }
 
+    .change-color {
+        color: #2a1206 !important;
+        line-height: 52px;
+        font-size: 36px;
+
+    }
+
+
     .highlight-box p {
         font-size: 18px;
         color: #f0f0f0;
         line-height: 30px;
         font-weight: 400;
+    }
+
+    .highlight-box .founded {
+        color: #949494;
     }
 
     /* ICON TEXT */
@@ -608,7 +615,7 @@
 
     /* Partners-section */
     .Partners-section {
-        padding: 40px 0px;
+        padding: 50px 0px;
     }
 
     .slider-company {
@@ -768,6 +775,10 @@
             gap: 6px;
         }
 
+        .pontar-card {
+            justify-content: center !important;
+        }
+
         .copy {
             margin-bottom: 10px;
             margin-top: 0;
@@ -790,22 +801,25 @@
             font-size: 10px;
         }
 
+        .custom-contact-btn a {
+            padding: 10px 17px !important;
+            font-size: 14px;
+        }
+
         .banner-img {
             height: 375px;
         }
 
         .about-section {
             margin: 0;
+            padding: 0;
+            padding-top: 10px;
         }
 
-        /* .image-stack .img-back {
-            position: absolute;
-            bottom: 11px;
-            left: 3px;
-            max-height: 230px;
-            height: 100%;
-            width: 215px;
-        } */
+        .list-unstyled {
+            padding-bottom: 5px;
+            border-bottom: solid 1px #A16034;
+        }
 
         .home-heading .future-section {
             text-align: center;
@@ -819,6 +833,7 @@
 
         .custom-contact-btn {
             text-align: center;
+            margin-bottom: 12px;
         }
 
         .rooted {
@@ -832,6 +847,7 @@
 
         .know-more-btn {
             text-align: center;
+            margin-bottom: 20px;
         }
 
         .about_page h3 {
@@ -862,14 +878,73 @@
         .footer-section h5 {
             font-size: 1rem;
         }
+
+        .about-page-section {
+            height: 350px !important;
+        }
+
+        /* about page .section-------------- */
+        .agriculture-img {
+            max-width: 384px !important;
+            height: 350px !important;
+            padding: 10px;
+        }
+
+        .driving-img-bottom_2 {
+            height: 230px;
+            width: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .driving-img-bottom_2 img {
+            max-width: 157px !important;
+        }
+
+        .driving-img-top {
+            gap: 12px;
+        }
+
+        .custom_driving_img {
+            gap: 12px;
+        }
+
+        .driving-img-bottom_2 {
+            margin-top: 12px;
+        }
     }
 
-    /*  Tablets (max-width: 768px)= */
+    /* Laptops / Tablets (max-width: 991.98px)*/
     @media (max-width: 991px) {
+        .custom-navbar {
+            background-color: #000000;
+        }
+
         .custom-logo img {
             max-width: 60px;
-            /* margin-left: 10px; */
             padding: 5px 0;
+        }
+
+        .highlight-box .sub-title {
+            font-size: 14px;
+            padding-bottom: 5px;
+        }
+
+        .pontar-card {
+            justify-content: start;
+        }
+
+
+        .impact-card img {
+            width: 34px;
+        }
+
+        .impact-card {
+            padding: 9px 8px !important;
+        }
+
+        .empower {
+            font-size: 14px !important;
         }
 
         .custom-hover-dropdown:hover .droup_manu {
@@ -890,6 +965,10 @@
 
         .custom-contact-btn {
             align-self: flex-start;
+        }
+
+        .agriculture-img {
+            height: 400px !important;
         }
 
         .droup_manu {
@@ -1025,6 +1104,7 @@
 
         .highlight-box .main-title {
             font-size: 1.3rem;
+            line-height: 30px;
         }
 
         .Support-heading h3 {
@@ -1098,7 +1178,7 @@
         }
 
         .Partners-section {
-            padding: 1rem 0px;
+            padding: 1rem 0px !important;
         }
 
         .custom-navbar-wrapper {
@@ -1111,7 +1191,9 @@
         }
 
         .custom-contact-btn {
-            margin-top: 10px;
+            /* margin-top: 0 !important; */
+            padding-top: 0 !important;
+            text-align: center !important;
         }
 
         /* Dropdown on mobile - allow click only */
@@ -1134,10 +1216,40 @@
         .nav-item {
             border-bottom: solid 1px grey;
         }
-    }
 
-    /* Laptops / Tablets (max-width: 991.98px)*/
-    @media (max-width: 992px) {
+        .highlight-box {
+            padding-bottom: 0 !important;
+        }
+
+        .highlight-box .founded {
+            line-height: 23px;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .Support_Donations_heading h3 {
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .Support_Donations_heading h3 {
+            padding: 0 !important;
+            margin: 0 !important;
+            font-size: 1rem !important;
+        }
+
+        .Support_Donations_section {
+            padding: 20px !important;
+            margin: 0 !important;
+        }
+
+        .mark_heading {
+            font-size: 20px !important;
+            line-height: 38p
+        }
+
+
         .custom-navbar-wrapper {
             flex-wrap: wrap;
         }
@@ -1156,7 +1268,38 @@
             margin-top: 10px;
             width: 100%;
         }
+
+        .custom_driving_img {
+            height: 440px;
+        }
+
+        .custom_driving_img {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .driving-img-top {
+            width: 100%;
+            align-items: center;
+        }
+
+        .driving-img-top_1,
+        .driving-img-top_2 {
+            height: auto;
+        }
+
+        .driving-img-bottom_2 {
+            width: 100% !important;
+            margin-top: 16px;
+            height: 97%;
+        }
+
+        .custom_driving_img {
+            height: 400px !important;
+        }
     }
+
+
 
     /* Desktop Only (min-width: 992px) */
     @media (min-width: 992px) {
@@ -1168,4 +1311,203 @@
         .custom-hover-dropdown:hover .droup_manu {
             display: block;
         }
+    }
+
+
+    /* about css--------------------- */
+    /* about page bg */
+    .about-page-section {
+        background-image: url("../images/about_pages.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-page-section::after {
+        content: " ";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: -1;
+    }
+
+    /* agriculture-img */
+    .agriculture-img {
+        max-width: 503px;
+        height: 531px;
+    }
+
+    .agriculture-img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    /* driving section -------------- */
+    .pontar-card {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .impact-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        box-shadow: 0 0 0 1px #C4BDB8;
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    .empower {
+        font-size: 18px;
+        font-weight: 400;
+        color: #3B2313;
+        font-family: "Libre Baskerville", serif;
+    }
+
+    .driving-img {
+        max-width: 360px;
+        max-height: 322px;
+        width: 100%;
+    }
+
+    /* card-box-------- */
+    .card {
+        border: none;
+        box-shadow: 0 0 0 1px #EBE9E7;
+        border-radius: 0;
+    }
+
+    .card-buse-titles {
+        font-size: 18px;
+        color: #2a1206;
+        font-weight: 400;
+        font-family: "Libre Baskerville", serif;
+        padding-top: 20px;
+    }
+
+    .card_p {
+        font-size: 12px;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        border-bottom: solid 1px #EBE9E7;
+        padding-bottom: 10px;
+        margin: 0;
+        color: #949494;
+    }
+
+    .Support-heading .leadership {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        font-family: "DM Sans";
+        color: #949494;
+    }
+
+
+    .Support_Donations_section {
+        padding: 50px 0;
+        background: linear-gradient(to right, #3B2313 0%, #A16034 100%);
+        margin: 0px 70px;
+    }
+
+    .Support_Donations_heading {
+        text-align: center;
+        color: #f0f0f0;
+    }
+
+    .Support_Donations_heading h3 {
+        font-size: 18px;
+        padding-bottom: 16px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: "DM Sans", sans-serif;
+    }
+
+    .mark_heading {
+        font-family: "Libre Baskerville", serif;
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .card .zoom-img {
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .card-img-top {
+        transition: transform 0.3s ease;
+        width: 100%;
+        display: block;
+    }
+
+    .card .zoom-img:hover .card-img-top {
+        transform: scale(1.05);
+    }
+
+
+    /* Common image styles */
+    .driving-img {
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Left column image sizes */
+    .custom_driving_img {
+        display: flex;
+        gap: 16px;
+        flex-direction: row;
+        height: 571px;
+    }
+
+    .driving-img-top {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        height: 100%;
+        align-items: flex-end;
+        width: 60%;
+    }
+
+    .driving-img-top_1 {
+        height: 52%;
+        width: 100%;
+    }
+
+    .driving-img-top_1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .driving-img-top_2 {
+        width: 100%;
+        height: 48%;
+    }
+
+    /* Right column image size */
+    .driving-img-bottom_2 {
+        object-fit: cover;
+        width: 30% !important;
+        height: 100%;
+    }
+
+    /* Gap between top and bottom images */
+    .driving-left-images {
+        gap: 16px;
     }
